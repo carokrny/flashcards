@@ -2,6 +2,8 @@
 
 React frontend application for creating flashcard quizzes associated with different topics.
 
+View live site [here](https://flashcards-react.netlify.app)!
+
 ## Table of Contents 
 * [Introduction](#introduction)
 * [Technologies](#technologies)
@@ -37,7 +39,7 @@ The user can navigate between different topics and quizzes to study! Flashcards 
 
 ## Set Up
 
-Live site hosted by Netlify at ADD SITE
+Live site hosted by Netlify at [flashcards-react.netlify.app](https://flashcards-react.netlify.app).
 
 Or, install locally and run `npm start` in the project root and the app will be available on port 3000.
 
