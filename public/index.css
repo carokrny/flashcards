@@ -192,10 +192,14 @@ li:not(:last-child) {
   background: #ffffff;
   border: 1px solid #bcbcbc;
   border-radius: 3px;
-  width: 88px;
+  width: 120px;
+  height: 120px;
   text-align: center;
   margin: 0 !important;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quiz > a {
@@ -215,4 +219,9 @@ li:not(:last-child) {
   color: white;
   padding: 73px 44px;
   width: 100%;
+}
+
+.back {
+  color: #b736ff;
+  background: white;
 }

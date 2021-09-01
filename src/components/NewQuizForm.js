@@ -74,6 +74,7 @@ export default function NewQuizForm() {
           id="quiz-topic"
           onChange={(e) => setTopicId(e.currentTarget.value)}
           placeholder="Topic"
+          required
         >
           <option value="">Topic</option>
           {Object.values(topics).map((topic) => (
@@ -91,6 +92,7 @@ export default function NewQuizForm() {
                 updateCardState(index, "front", e.currentTarget.value)
               }
               placeholder="Front"
+              required
             />
 
             <input
@@ -100,6 +102,7 @@ export default function NewQuizForm() {
                 updateCardState(index, "back", e.currentTarget.value)
               }
               placeholder="Back"
+              required
             />
 
             <button
