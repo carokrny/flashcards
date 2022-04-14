@@ -4,6 +4,8 @@ React frontend application for creating flashcard quizzes associated with differ
 
 View live site [here](https://flashcards-react.netlify.app)!
 
+[![Screenshot of Flashcards application](./public/screenshot.png)](https://flashcards-react.netlify.app)
+
 ## Table of Contents 
 * [Introduction](#introduction)
 * [Technologies](#technologies)
